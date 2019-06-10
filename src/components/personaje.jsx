@@ -6,7 +6,7 @@ function Personaje(props)
     
     return (<div>
                 <h1>{props.name}</h1>
-                <Link to={"/detalle/" + props.name}><img src={ props.thumbnail.path +"."+ props.thumbnail.extension }></img></Link>
+                <Link to={"/detalle/" + props.id}><img src={ props.thumbnail.path +"."+ props.thumbnail.extension }></img></Link>
          </div>);
 }
 

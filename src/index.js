@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Personajes from './components/personajes';
-import { BrowserRouter, Route, Link , Switch } from "react-router-dom";
+import Detail from './components/detail';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 
 const routes = ( <BrowserRouter >
@@ -12,6 +12,7 @@ const routes = ( <BrowserRouter >
         <Switch >
             <Route path = "/" component = { Personajes } exact/> 
             {/* <Route path="/detalle/:id" component={Detalle} /> */}
+            <Route path="/detalle/:id" component={ Detail } exact/>
 
         </Switch>
      </div> 

@@ -14,10 +14,7 @@ class Personajes extends Component {
         listPersonajes.characters()
             .then(res => {
                 const personajes = res.data.data.results;
-                console.log(personajes)
                 this.setState({personajes});
-                console.log({personajes})
-                console.log(this.state.personajes.thumbnail.path)
             })
     }
    
