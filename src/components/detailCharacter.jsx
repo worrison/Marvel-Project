@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const API="https://gateway.marvel.com:443/v1/public/characters/";
 const API2="?apikey=26d7528942f2d504c462e42835bd7313"
 
-class Detail extends Component{
+class DetailCharacter extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -40,4 +40,4 @@ class Detail extends Component{
 }
 
 
-export default Detail;
+export default DetailCharacter;
