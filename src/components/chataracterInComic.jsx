@@ -19,7 +19,6 @@ class CharactersInComic extends Component
             }) 
            
         })
-    //    console.log("Buenas tardes",this.state.personajes);
     }
     
     render(){

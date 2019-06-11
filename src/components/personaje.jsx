@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Personaje(props)
 {
-    
+   
     return (<div>
                 <h1>{props.name}</h1>
                 <Link to={"/detalleCharacter/" + props.id}><img src={ props.thumbnail.path +"."+ props.thumbnail.extension }></img></Link>
