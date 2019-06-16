@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Comic from './comic';
-import listComics from '../controllers/comicsController'
+import listComics from '../../controllers/comicsController'
 
 class Comics extends Component {
 

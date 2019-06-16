@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Personaje from './personaje';
-import listPersonajes from '../controllers/personajesController'
+import listPersonajes from '../../controllers/personajesController'
 
 class Personajes extends Component {
 
